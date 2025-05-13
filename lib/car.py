@@ -1,4 +1,6 @@
-from vehicle import Vehicle
+# lib/car.py
+from vehicle import Vehicle  # Don't forget this import!
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
